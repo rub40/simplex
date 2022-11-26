@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "81QRVbOvztrtrZV4P8a80dLGtXyDNN6q4qB2wSQOR8cJ/izgYhzDOe76LgYU1HYy3qrO6itdPP1kcMZz98hX9g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joser\\source\\repos\\Simplex\\Simplex\\Simplex.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joser\\.nuget\\packages\\extended.wpf.toolkit\\4.4.0\\extended.wpf.toolkit.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
