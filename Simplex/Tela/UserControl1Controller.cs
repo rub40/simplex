@@ -14,7 +14,6 @@ namespace Simplex
         public UserControl1Controller()
         {
             ListaMaxMin = new List<string> { "MAX", "MIN" };
-            ListaMaiorMenor = new List<string> { "<=", ">=" };
             FuncaoObjetiva = new FuncaoObjetiva();
             ListaInequacao = new ObservableCollection<Inequacao>();
             CurrentInequacao = new Inequacao();
@@ -27,13 +26,6 @@ namespace Simplex
         {
             get => listaMaxMin;
             set { listaMaxMin = value; OnPropertyChanged(new PropertyChangedEventArgs("ListaMaxMin")); }
-        }
-
-        private List<string> listaMaiorMenor;
-        public List<string> ListaMaiorMenor
-        {
-            get => listaMaiorMenor;
-            set { listaMaiorMenor = value; OnPropertyChanged(new PropertyChangedEventArgs("ListaMaiorMenor")); }
         }
 
         private string calculo;

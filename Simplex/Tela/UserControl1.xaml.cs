@@ -61,8 +61,6 @@ namespace Simplex
             controller.CurrentInequacao.Ordem = controller.ListaInequacao.Count();
             controller.ListaInequacao.Add(controller.CurrentInequacao.DuplicarObjeto<Inequacao>());
             controller.CurrentInequacao = new Inequacao();
-            controller.ListaMaiorMenor = new List<string> { "<=", ">="};
-            controller.CurrentInequacao.Sinal = controller.ListaMaiorMenor.FirstOrDefault();
             ColocarFocus(x1Inequacao);
         }
 
