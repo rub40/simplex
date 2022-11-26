@@ -13,19 +13,11 @@ namespace Simplex
     {
         public UserControl1Controller()
         {
-            ListaMaxMin = new List<string> { "MAX", "MIN" };
             FuncaoObjetiva = new FuncaoObjetiva();
             ListaInequacao = new ObservableCollection<Inequacao>();
             CurrentInequacao = new Inequacao();
             Travar = false;
 
-        }
-
-        private List<string> listaMaxMin;
-        public List<string> ListaMaxMin
-        {
-            get => listaMaxMin;
-            set { listaMaxMin = value; OnPropertyChanged(new PropertyChangedEventArgs("ListaMaxMin")); }
         }
 
         private string calculo;
